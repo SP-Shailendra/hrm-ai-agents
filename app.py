@@ -16,7 +16,6 @@ from hrm_agent import (
     hr_document_generator,
     create_pdf,
     performance_review_agent,
-    hr_service_agent
 )
 
 # Report Download Helpers
@@ -341,7 +340,7 @@ with tab6:
                 mime="application/pdf"
             )
 
-
+"""
 # ----------------------------------------------------
 # TAB 7 - HR SERVICE DESK
 # ----------------------------------------------------
@@ -357,3 +356,4 @@ with tab7:
             st.write(response)
         else:
             st.warning("Please enter a query or issue.")
+"""
