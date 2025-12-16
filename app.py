@@ -124,7 +124,7 @@ st.write("Analyze employee feedback using AI — Sentiment, Topics, Retention & 
 # ----------------------------------------------------
 # TABS
 # ----------------------------------------------------
-tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
     [
         "🧠 Sentiment Analysis",
         "📌 Topic Modeling",
