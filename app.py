@@ -131,8 +131,7 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(
         "📊 Retention Report",
         "💬 HR Chat Assistant",
         "📄 HR Document Generator",
-        "📈 Performance & Goals",
-        "🎧 HR Service Desk"
+        "📈 Performance & Goals"
     ]
 )
 
