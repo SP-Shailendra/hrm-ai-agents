@@ -137,20 +137,6 @@ Provide:
     return ask_llm(prompt)
 
 
-def hr_service_agent(query):
-    prompt = f"""
-You are an HR Service Desk AI Agent.
-
-Employee query:
-{query}
-
-Provide:
-- Answer or classification
-- Priority
-- Next action
-"""
-    return ask_llm(prompt)
-
 
 # -----------------------------
 # PDF helper (unchanged)
