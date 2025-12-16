@@ -181,7 +181,7 @@ with tab3:
 # TAB 4 - HR CHATBOT
 # ----------------------------------------------------
 with tab4:
-    st.header("💬 HR Chat Assistant")
+    st.header("💬 HR Service Assistant")
     query = st.text_input("Ask anything related to HR policies, employee satisfaction, etc.")
     if st.button("Ask"):
         if query.strip():
@@ -207,7 +207,7 @@ with tab5:
         helping organizations modernize technology and accelerate digital growth.
         """
     )
-
+    
     st.divider()
 
     doc_type = st.selectbox(
@@ -279,9 +279,6 @@ Location: Noida, Uttar Pradesh, India
 # ----------------------------------------------------
 # TAB 6 - PERFORMANCE & GOALS
 # ----------------------------------------------------
-# ----------------------------------------------------
-# TAB 6 - PERFORMANCE & GOALS
-# ----------------------------------------------------
 with tab6:
     st.header("📈 Performance & Goals Agent")
 
@@ -339,21 +336,3 @@ with tab6:
                 file_name=f"{emp_name}_Performance_Review.pdf",
                 mime="application/pdf"
             )
-
-"""
-# ----------------------------------------------------
-# TAB 7 - HR SERVICE DESK
-# ----------------------------------------------------
-with tab7:
-    st.header("🎧 HR Service Desk Agent")
-
-    hr_query = st.text_area("Describe your HR question or issue", height=150)
-
-    if st.button("Submit to HR Service"):
-        if hr_query.strip():
-            response = hr_service_agent(hr_query)
-            st.success("📌 HR Service Response")
-            st.write(response)
-        else:
-            st.warning("Please enter a query or issue.")
-"""
